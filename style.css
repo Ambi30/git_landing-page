@@ -39,33 +39,36 @@ ul {
 }
 
 .top-content {
+    flex-basis: 400px;
     display: flex;
-    background-color: blue;
-    padding: 0 60px;  
-   
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+    background-color: orange;
+}
 
-
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
 }
 
 .top-moon {
-    width: 200px;
+    width: 300px;
     background-color: red;
+    flex-shrink: 0;
+    display: flex;
 }
 
-.top-paragraph,
-.top-content-h2 {
+.content {
     display: flex;
-    background-color: blueviolet;
-    flex-direction: column;
+    color: #F9FAF8;
+    background-color: purple;
     align-items: center;
-    justify-content: space-between;
-    flex: 1;
-    text-align: left;
-   margin:0;
-}
+    justify-content: center;
+    padding: 90px;
+    flex-wrap: wrap;
 
-
-.top {
-    display: flex;
-    background-color: orange ;
 }
