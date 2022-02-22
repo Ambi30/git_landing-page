@@ -1,5 +1,4 @@
 body {
-    background-color: aquamarine;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -11,11 +10,11 @@ body {
     flex-direction: column;
 }
 .header {
-    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 60px;
+    background-color: lightblue;
 }
 
 ul {
@@ -44,7 +43,7 @@ ul {
     flex-direction: column;
     text-align: left;
     margin-right: 50px;
-    background-color: orange;
+   
 }
 
 h2 {
@@ -65,11 +64,50 @@ h2 {
 .content {
     display: flex;
     color: #F9FAF8;
-    background-color: purple;
+    background-color: lightblue;
     align-items: center;
     justify-content: center;
     padding: 90px;
     flex-wrap: wrap;
    
 
+}
+
+.section-2 {
+display: flex;
+flex-direction: row;
+background-color: aqua;
+justify-content: center;
+text-align: center;
+gap: 36px;
+
+}
+
+.section-2-header {
+
+}
+
+.section-2 img {
+   
+    width: 200px;
+    border-radius: 50px;
+    
+  
+}
+
+.moon1 {
+
+   
+}
+
+.moon3 {
+   
+}
+
+.moon2 {
+
+}
+
+.section-2-text {
+width:200px;
 }
