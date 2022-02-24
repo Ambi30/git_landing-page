@@ -111,3 +111,55 @@ gap: 36px;
 .section-2-text {
 width:200px;
 }
+
+.quote-container {
+background-color: lightgray;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.quote-text {
+width: 500px;
+}
+
+.quote-author {
+  text-align: right;
+
+}
+
+.section-4-container {
+background-color: #3882f6;
+display: flex;
+justify-content: center;
+margin: 50px;
+align-items: center;
+}
+
+.section-4-box {
+background-color: antiquewhite;
+margin:60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.section-4-2 {
+    
+}
+
+.bottom-button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
